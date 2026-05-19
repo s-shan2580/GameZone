@@ -6,7 +6,9 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge&logo=bootstrap)
 
 A retro-style browser arcade built using pure front-end technologies.  
-Because humanity looked at modern UI minimalism and decided glowing neon space casinos were spiritually healthier.
+GameZone combines classic mini-games, neon arcade aesthetics, responsive UI design, and dynamic user interaction into one browser-based gaming portal.
+
+Because apparently humans collectively decided glowing space-themed buttons improve productivity. Hard to argue with the results.
 
 ---
 
@@ -20,22 +22,28 @@ GameZone is a static arcade gaming portal where users can:
 - Post game reviews dynamically
 - Experience a retro neon arcade interface
 
-The project is fully front-end based and focuses on responsive UI design, DOM manipulation, and interactive styling.
+The project is fully front-end based and focuses on:
+- Responsive web design
+- DOM manipulation
+- Interactive UI/UX
+- Multi-page website structuring
 
 ---
 
 # 🛠️ Technologies Used
 
- Technology     Purpose              
-   HTML5          Page structure       
-   CSS3           Styling & animations 
-   JavaScript     Interactivity        
-   Bootstrap5     Responsive layout    
+| Technology | Purpose |
+|---|---|
+| HTML5 | Structure of webpages |
+| CSS3 | Styling & animations |
+| JavaScript | Interactivity & DOM manipulation |
+| Bootstrap 5 | Responsive layouts & components |
 
 ---
 
 # 📂 Project Structure
 
+```plaintext
 GameZone/
 │
 ├── homePage_Directory/
@@ -59,6 +67,7 @@ GameZone/
 ├── whackMole/
 │
 └── readme.md
+```
 
 ---
 
@@ -74,7 +83,7 @@ GameZone/
 
 ---
 
-## 📬 Contact & Feedback Page
+## 📬 Contact & Review Page
 
 Users can:
 - Send feedback/issues
@@ -99,8 +108,7 @@ When a user submits a review:
 3. The card is dynamically displayed on the page
 
 No backend used.  
-The reviews disappear on refresh.  
-Like temporary happiness after winning a game of Pac-Man.
+Reviews disappear after refresh because local storage has not been implemented yet. Temporary digital memories. Very poetic. Very fragile.
 
 ---
 
@@ -132,27 +140,35 @@ GameZone follows a retro sci-fi arcade theme featuring:
 
 # ⚙️ How to Run
 
-## 1. Clone the Repository
+## 1️⃣ Clone the Repository
 
- bash
-      $ git clone <your-repository-link>
+```bash
+git clone https://github.com/s-shan2580/GameZone.git
+```
 
+---
 
-## 2. Open Project Folder
+## 2️⃣ Open Project Folder
 
-bash
-     $ cd GameZone
+```bash
+cd GameZone
+```
 
+---
 
-## 3. Launch Website
+## 3️⃣ Launch Website
 
-Open: homepage_directory/homePage.html
+Open:
+
+```plaintext
+homePage_Directory/homePage.html
+```
 
 in your browser.
 
 No installation required.  
 No frameworks.  
-No npm packages trying to download the observable universe.
+No package managers summoning 800MB of dependencies to center a button.
 
 ---
 
@@ -192,6 +208,6 @@ This project is open-source and free to use for educational purposes.
 
 # 🌌 Final Note
 
-GameZone was built to recreate the nostalgic arcade feeling directly inside the browser with vibrant visuals, interactive elements, and lightweight gameplay.
+GameZone was built to recreate the nostalgic arcade feeling directly inside the browser using vibrant visuals, interactive gameplay, and lightweight front-end technologies.
 
-Humanity may be collapsing into algorithmic sludge, but at least the neon buttons glow nicely.
+Human civilization may collapse under infinite notifications and subscription models, but the neon arcade survives.
