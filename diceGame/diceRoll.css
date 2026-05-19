@@ -1,0 +1,73 @@
+.container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 65%;
+}
+
+footer {
+  margin-top: 3%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+
+/* css added later for button specific game */
+.btn-container {
+  margin-top: 40px;
+}
+
+.playBtn {
+  padding: 12px 30px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  background-color: #4ECCA3;
+  color: #232931;
+
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+
+  transition: 0.3s ease;
+}
+
+.playBtn:hover {
+  background-color: #37b88c;
+  transform: scale(1.05);
+}
+
+.playBtn:active {
+  transform: scale(0.95);
+}

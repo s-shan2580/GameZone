@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>GAMEZONE CORNER</title>
+
+    <!-- Google Font Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="homePage.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR START -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-lg"
+    >
+      <div class="container">
+        <!-- LOGO / TITLE -->
+        <a class="navbar-brand fw-bold fs-3 comic-nav-logo" href="#">
+          RETROS CORNER
+        </a>
+
+        <!-- MOBILE TOGGLER -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          title="Toggle navigation"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAV LINKS -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Games</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./simonGame/simonGame.html"
+                target="_blank"
+                >Trending</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./contactUs.html" target="_blank"
+                >Reviews</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./contactUs.html" target="_blank"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <main>
+      <!-- topBanner Section -->
+      <section class="py-5 text-center topbox">
+        <div class="sparkle s1"></div>
+        <div class="sparkle s2"></div>
+        <div class="sparkle s3"></div>
+        <div class="sparkle s4"></div>
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="comic-text">GAMEZONE</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- Game Cards Section -->
+      <div class="album py-5 universe-bg">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+            <!-- card 01 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../simonGame/simongameimage.webp"
+                  class="card-img-top game-img"
+                  alt=" Simon Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">Simon Game</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Test your memory, follow the pattern, and survive the
+                    ever-growing sequence in this classic reflex-testing
+                    challenge.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="./simonGame/simonGame.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> Arcade </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 02 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../snakeGame/snakegameimage.webp"
+                  class="card-img-top game-img"
+                  alt=" Snake Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">Snake Game</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Guide the snake, collect food, and survive as the challenge
+                    grows faster and more chaotic with every move.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="./simonGame/simonGame.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> Survival </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 03 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../pacManGame/pacmanimage.jpg"
+                  class="card-img-top game-img"
+                  alt=" PacMan Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">PacMan Game</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Navigate twisting mazes, dodge ghosts, and collect every
+                    pellet in this legendary arcade chase adventure.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="./simonGame/simonGame.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> Maze </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 04 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../diceGame/diceimg.avif"
+                  class="card-img-top game-img"
+                  alt=" Diceroll Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">Dice Roll</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Roll the dice, test your luck, and battle your opponent in
+                    this quick and unpredictable number showdown.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="../diceGame/diceRoll.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> try luck </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 05 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../drumKit/images/drumkitimage.png"
+                  class="card-img-top game-img"
+                  alt=" Drumkit Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">Drum Master</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Hit the keys, click the drums, and create powerful beats in
+                    this interactive rhythm-packed drum kit experience.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="../drumKit/drumKit.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> Musical </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 06 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../tetris/tetrisGameimage.png"
+                  class="card-img-top game-img"
+                  alt="  Tetris Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">Tetris Game</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Stack falling blocks, clear lines, and keep the screen under
+                    control in this timeless puzzle challenge.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="../simonGame/simonGame.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> Puzzle </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 07 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../spaceInvader/spaceInvaders.webp"
+                  class="card-img-top game-img"
+                  alt=" SpaceInvaders Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">Space Invaders</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Defend the galaxy, destroy alien waves, and survive the
+                    endless attack in this iconic retro space shooter.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="../simonGame/simonGame.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> Space </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 08 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../whackMole/whackAmole.jpg"
+                  class="card-img-top game-img"
+                  alt=" WhackaMole Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">Whack A Mole</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Smash popping moles, test your reflexes, and rack up points
+                    in this fast-paced arcade reaction game.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="../simonGame/simonGame.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> Reflex </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 09 -->
+            <div class="col">
+              <div class="card game-card">
+                <!-- GAME IMAGE -->
+                <img
+                  src="../ticTacToe/tictactoeimage.png"
+                  class="card-img-top game-img"
+                  alt=" Tic Tac Toe Game Image"
+                />
+
+                <!-- CARD BODY -->
+                <div class="card-body">
+                  <!-- GAME TITLE -->
+                  <h3 class="game-title">Tic Tac Toe</h3>
+
+                  <!-- GAME DESCRIPTION -->
+                  <p class="card-text game-description fw-bold">
+                    Challenge your opponent, plan your moves, and claim victory
+                    in this simple yet endlessly competitive strategy game.
+                  </p>
+
+                  <!-- BUTTON + INFO -->
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <!-- PLAY BUTTON -->
+                    <a
+                      href="../simonGame/simonGame.html"
+                      class="btn play-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      🎮 Play Game
+                    </a>
+
+                    <!-- GAME CATEGORY -->
+                    <small class="game-tag"> Stratergy </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER START -->
+    <footer class="game-footer">
+      <div class="container py-4">
+        <div class="row align-items-center">
+          <!-- LEFT -->
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <h3 class="footer-logo">GAMEZONE</h3>
+
+            <p class="footer-text mb-0">Explore. Play. Conquer.</p>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="col-md-6 text-center text-md-end">
+            <a href="#" class="footer-link">Home</a>
+            <a href="#" class="footer-link">Games</a>
+            <a href="#" class="footer-link">Trending</a>
+            <a href="./contactUs.html" target="_blank" class="footer-link"
+              >Contact</a
+            >
+          </div>
+        </div>
+
+        <!-- BOTTOM -->
+        <hr class="footer-line" />
+
+        <div class="text-center footer-copy">
+          © 2026 GAMEZONE | All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="homePage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

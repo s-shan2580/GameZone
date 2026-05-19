@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>GameZone Contact Us</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="contactUs.css" />
+
+    <style></style>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <nav>
+      <div class="logo">GAMEZONE</div>
+
+      <div class="nav-links">
+        <a href="./homePage.html">Home</a>
+        <a href="./homePage.html" target="_blank">Games</a>
+        <a href="./simonGame/simonGame.html" target="_blank">Trending</a>
+        <a href="#">Reviews</a>
+        <a href="./contactUs.html">Contact Us</a>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="main-container">
+      <!-- CONTACT FORM -->
+
+      <div class="form-box">
+        <h2>CONTACT US</h2>
+        <form>
+          <input
+            type="text"
+            name="gamerTag"
+            placeholder="Enter Gamer Tag"
+            required
+          />
+
+          <input type="email" name="email" placeholder="Enter Email" required />
+
+          <select
+            id="issueType"
+            name="issueType"
+            aria-label="Issue Type"
+            required
+          >
+            <option value="">Select Issue Type</option>
+
+            <option value="bug">Bug Report</option>
+            <option value="suggestion">Game Suggestion</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="feedback">Feedback</option>
+          </select>
+
+          <textarea
+            name="message"
+            placeholder="Type your message here..."
+            required
+          ></textarea>
+
+          <button type="submit">SEND MESSAGE</button>
+        </form>
+      </div>
+
+      <!-- REVIEW SECTION -->
+
+      <div class="info-box">
+        <h2>PLAYER REVIEWS</h2>
+
+        <p>
+          Share your gaming experience with the GameZone community. Rate
+          classics, suggest improvements, or rant about impossible levels that
+          were apparently designed by emotionally unstable arcade engineers.
+        </p>
+
+        <form id="reviewForm">
+          <select
+            id="category"
+            name="category"
+            aria-label="Issue Type"
+            required
+          >
+            <option>Select Game Category</option>
+
+            <option>Arcade</option>
+            <option>Puzzle</option>
+            <option>Retro</option>
+            <option>Adventure</option>
+            <option>Strategy</option>
+            <option>Action</option>
+          </select>
+
+          <input type="text" id="gameName" placeholder="Game Name" />
+
+          <textarea id="reviewText" placeholder="Write your review here..."></textarea>
+
+          <button type="submit">POST REVIEW</button>
+        </form>
+
+        <div class="reviews-container" id="reviewsContainer">
+          <!-- Reviews appear here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>© 2026 GAMEZONE | Built for Retro Gamers 🤖</footer>
+
+    <script src="contactUs.js"></script>
+  </body>
+</html>
