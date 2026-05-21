@@ -23,7 +23,8 @@
     ),
     /* halftone dots */
     radial-gradient(circle, rgba(255, 255, 255, 0.18) 2px, transparent 3px),
-    /* base gradient */ linear-gradient(135deg, #00cfff, #0077ff);
+    /* base gradient */ 
+    linear-gradient(135deg, #00cfff, #0077ff);
 
   background-size:
     cover,
